@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 
         let window = UIWindow(windowScene: windowScene)
         
-        let rootViewController = ViewController()
+        let rootViewController = PlayerViewController()
         
         window.rootViewController = rootViewController
         
